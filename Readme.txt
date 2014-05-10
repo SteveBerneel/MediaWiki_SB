@@ -3,6 +3,12 @@ Berneel Steve
 
 MediaWiki Vagrant BOX
 
-Bertvv 
+Copy of the project of Bertvv with changed provision.sh
 
-Updating Provision.sh
+added to provision.sh
+
+- mysql, vsftpd, mediawiki install
+
+Thanks to Bertvv, 
+user on GitHub, 
+Lecturer ICT at University College Ghent
