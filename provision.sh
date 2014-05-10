@@ -65,7 +65,7 @@ echo -------------------------------------------------------------------------
 echo MEDIAWIKI INSTALLATION ALMOST COMPLETED!
 echo Please go to http://192.168.56.65/mediawiki to set up the wiki!!!!!!!!!!!
 echo For more info please see the Readme.md file on 
-        https://github.com/SteveBerneel/MediaWiki_SB
+echo  https://github.com/SteveBerneel/MediaWiki_SB
 echo --------------------------------------------------------------------------
 
 echo END OF SCRIPT
