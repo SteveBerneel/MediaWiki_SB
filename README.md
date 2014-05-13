@@ -5,11 +5,13 @@ Mission 4 MediaWiki with GitHub
 HOW TO USE
 -----------
 1.	Make sure Git Shell and Vagrant are installed on your host system.
-2.	Open "Git Shell" and go to a directory you use for Vagrant experiments.
+2.	Open "Git Shell" or Git Bash and go to a directory you use for Vagrant experiments.
 3.	Get this code from Github. This will make a new folder with the name MediaWiki_SB: 
-		git clone https://github.com/SteveBerneel/MediaWiki_SB.git
+		$ git clone https://github.com/SteveBerneel/MediaWiki_SB.git
 
-4.  Go to Git Shell and type $  vagrant up
+4.  - In Git Shell type $ cd MediaWiki_SB (This will go to the downloaded folder)
+	- Then type $  vagrant up
+		( The VM basebox will be downloaded from GitHub and the installation starts)
 
 5.  Finish MediaWiki installation
 		•	Go to http://192.168.56.65/mediawiki 
@@ -26,7 +28,7 @@ Your Name: (YourName)       Pass: thi1313        Mail: (YourMailAddress)
 	Place the LocalSettings.php file that you got at the end of the wiki web config procedure
 	in the homefolder of the vagrant user with ftp client. 
 	
-7.	In Git Shell type : vagrant ssh      and then type :
+7.	In Git Shell type : $ vagrant ssh      and then type :
 	sudo cp LocalSettings.php /var/www/html/mediawiki ( to copy the file to the mediawiki folder )
 
 8.	First Wiki is done.
